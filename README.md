@@ -1,6 +1,6 @@
 # react-components
 
-Demo [here](https://zeit.co/alextanhongpin/build/tyknhhxgte).
+Demo [here](https://build-tyknhhxgte.now.sh/).
 
 Creating reusable components with React.
 
