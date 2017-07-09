@@ -1,0 +1,75 @@
+
+.react-dropdown-country {
+
+    text-align: left;
+    border: 1px solid #E4E4E4;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 3px;
+    position: relative;
+}
+.react-dropdown-country:hover {
+    border: 1px solid #BBBBBB;
+}
+
+.react-dropdown-country__input {
+    border: none;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    max-width: calc(100% - 21px);
+    height: 100%;
+    display: inline-block;
+}
+
+.react-dropdown-country *,
+.react-dropdown-country *:before,
+.react-dropdown-country *:after {
+    box-sizing: border-box;
+}
+.react-dropdown-country__countries {
+    max-height: calc(35px * 10);
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 100%;
+    border: 1px solid #E4E4E4;
+    position: absolute;
+    background: white;
+    left: 0;
+    top: calc(100% + 1px);
+    z-index: 5000;
+    display: none;
+}
+.react-dropdown-country__countries.is-visible {
+    display: block;
+}
+
+.react-dropdown-country__country.is-selected {
+    background: #F4F4F4;
+}
+.react-dropdown-country__country.is-focused {
+    background: #F4F4F4;
+}
+.react-dropdown-country__country {
+    font-size: 14px;
+    line-height: 35px;
+    height: 35px;
+    padding: 0 10px;
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.react-dropdown-country__country:hover {
+    background: #EEEEEE;
+}
+.react-dropdown-country__separator {
+    display: inline-block;
+    width: 5px;
+}
+
+.react-dropdown-country__button-clear {
+    font-size: 12px;
+    color: #888888;
+}
